@@ -29,15 +29,15 @@
 	</div>
 </div>
 <div class="full">
-	<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
-		<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
-		<label class="product full" for="{{ product.title }}">
-			<img class="checkbox-image middle" ng-src="{{ product.image }}"/>
+	<div class="tile eigth" ng-repeat="service in products.services | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+		<input type="checkbox" id="{{ service.title }}" name="{{ service.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
+		<label class="product full" for="{{ service.title }}">
+			<img class="checkbox-image middle" ng-src="{{ service.image }}"/>
 			<div class="text-box full">
-				<h4>{{ product.title }}</h4>
+				<h4>{{ service.title }}</h4>
 				<p class="italics">
-					Min. Order: <b>{{ product.minorder }}</b><br>
-					Frequency: <b>{{ product.frequency }}</b>
+					Min. Order: <b>{{ service.minorder }}</b><br>
+					Frequency: <b>{{ service.frequency }}</b>
 				</p>
 			</div>
 			<div class="check-box full">
@@ -48,9 +48,6 @@
 </div>
 <div class="wrapper">
 	<div class="content full">
-		<div class="quarter" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter:{'order':'selected'}">
-			<p>{{ product.title }}</p>		
-		</div>
-		<button class="submit button middle center" ng-click="panel.selectTab(2)">Next ></button>
+		<button class="submit button middle center" form="order" type="submit" value="Submit">Request Service</button>
 	</div>
 </div>

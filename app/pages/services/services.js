@@ -1,4 +1,4 @@
-var products = [
+var services = [
 
 // Tabloids
 	{
