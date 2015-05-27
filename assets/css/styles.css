@@ -2,7 +2,7 @@
 --------------------------
 BENCHTOP DEVICES BRAND GUIDE
 --------------------------
-Primary Color    | #3af
+Primary Color    | #7d287d
 Secondary Color  | #
 Primary Accent   | #
 Primary Fill     | #
@@ -70,7 +70,7 @@ header a {
 	font-weight: 700;
 }
 header a:hover {
-	color: #3af;
+	color: #7d287d;
 }
 header a img {
 	width: auto;
@@ -135,13 +135,13 @@ li.step a {
 	border-radius: 50%;
 }
 li.step a:hover {
-	color: #3af;
-	border: 1px solid #3af;	
+	color: #7d287d;
+	border: 1px solid #7d287d;	
 }
 li.step.active a {
-	background: #3af;
+	background: #7d287d;
 	color: #fff;
-	border: 1px solid #3af;
+	border: 1px solid #7d287d;
 }
 form {}
 .form-body {
@@ -206,8 +206,8 @@ input[type=checkbox]:checked + label.product > .check-box {
 .button:focus,
 .button:checked {
 	background: #fff;
-	color: #3af;
-	border: 1px solid #3af;
+	color: #7d287d;
+	border: 1px solid #7d287d;
 }
 .cta,
 .submit {
@@ -238,7 +238,7 @@ input[type=checkbox] + label.product {
 }
 input[type=checkbox] + label.product:hover,
 input[type=checkbox]:checked + label.product {
-	background: #3af;
+	background: #7d287d;
 }
 input[type=submit] {}
 input[type=text] {
@@ -267,7 +267,7 @@ footer p a {
 	font-weight: 700;
 }
 footer p a:hover {
-	color: #3af;
+	color: #7d287d;
 }
 .copyright p {
 	font-size: 0.75em;
@@ -297,7 +297,7 @@ footer p a:hover {
 	color: #444;
 }
 .subsection p a:hover {
-	color: #3af;
+	color: #7d287d;
 }
 .subsection-alt {
 	background: #ccc;
