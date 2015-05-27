@@ -1,6 +1,6 @@
 /*
 --------------------------
-TV NEWS SALES BRAND GUIDE
+BENCHTOP DEVICES BRAND GUIDE
 --------------------------
 Primary Color    | #3af
 Secondary Color  | #
@@ -281,8 +281,7 @@ footer p a:hover {
 	margin: 0 auto;
 }
 #content {
-	background: url("../images/clouds.jpg");
-	background-size: cover;
+	background: url("../images/low_contrast_linen.png");
 	background-attachment: fixed;
 	width: 100%;
 	padding: 74px 0 0 0;
