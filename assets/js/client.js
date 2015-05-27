@@ -3,7 +3,6 @@ var client = {
 	'contact': {
 		'email': 'tony@benchtopdevices.com',
 		'phone': '603-256-6100',
-		'fax': '',
 	},
 	'locations': [
 		{
