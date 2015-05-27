@@ -16,7 +16,7 @@
 			<div class="tile eigth" ng-repeat="service in products.services | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
 				<input type="checkbox" id="{{ service.title }}" name="{{ service.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
 				<label class="product full" for="{{ service.title }}">
-					<!--<img class="checkbox-image middle" ng-src="{{ service.image }}"/>-->
+					<img class="checkbox-image middle" ng-src="{{ service.image }}"/>
 					<div class="text-box full">
 						<h4>{{ service.title }}</h4>
 						<p class="italics">
