@@ -289,6 +289,9 @@ footer p a:hover {
 .content {
 	padding: 20px;
 }
+.hero {
+	color: #fff;
+}
 .subsection {
 	background: #fff;
 }
