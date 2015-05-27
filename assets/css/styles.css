@@ -292,6 +292,10 @@ footer p a:hover {
 .hero {
 	color: #fff;
 }
+.hero > .button {
+	color: #fff;
+	border: 1px solid #fff;
+}
 .subsection {
 	background: #fff;
 }
