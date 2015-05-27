@@ -3,6 +3,8 @@ var client = {
 	'contact': {
 		'email': 'tony@benchtopdevices.com',
 		'phone': '603-256-6100',
+		'cell': '',
+		'fax': '',
 	},
 	'locations': [
 		{
@@ -16,7 +18,7 @@ var client = {
 		},
 	],
 	'socials': [
-		{
+/*		{
 			'name': 'facebook',
 			'link': 'www.facebook.com',
 		},
@@ -24,11 +26,11 @@ var client = {
 			'name': 'twitter',
 			'link': 'www.twitter.com',
 		},
-		{
+*/		{
 			'name': 'linkedin',
 			'link': 'www.linkedin.com',
 		},
-		{
+/*		{
 			'name': 'google+',
 			'link': 'plus.google.com',
 		},
@@ -52,5 +54,5 @@ var client = {
 			'name': 'tumblr',
 			'link': 'www.tumblr.com',
 		},
-	],
+*/	],
 };
