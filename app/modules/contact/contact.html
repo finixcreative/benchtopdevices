@@ -8,7 +8,7 @@
 		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
-		Email: <a href="mailto:{{ client.contact.email }}">{{ client.client.contact.email }}</a><br>
-		Phone: <a href="tel:{{ client.contact.phone }}">{{ client.client.contact.phone }}</a><br>
+		Email: <a href="mailto:{{ client.client.contact.email }}">{{ client.client.contact.email }}</a><br>
+		Phone: <a href="tel:1-{{ client.client.contact.phone }}">{{ client.client.contact.phone }}</a><br>
 	</p>
 </div>
