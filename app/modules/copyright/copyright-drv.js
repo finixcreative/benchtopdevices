@@ -2,6 +2,6 @@ angular.module('coreMod')
 	.directive('copyright', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/tvnewssales/app/modules/copyright/copyright.html'
+			templateUrl: '/benchtopdevices/app/modules/copyright/copyright.html'
 		};
 	});
