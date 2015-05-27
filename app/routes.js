@@ -6,8 +6,8 @@ angular.module('finixApp')
 			})
 			.when('/services', {
 				templateUrl: 'app/pages/services/services.html',
-				controller: '',
-				controllerAs: '',
+				controller: 'PanelController',
+				controllerAs: 'panel',
 			})
 			.when('/technical', {
 				templateUrl: 'app/pages/technical/technical.html',
