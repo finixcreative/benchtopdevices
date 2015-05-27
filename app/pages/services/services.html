@@ -1,6 +1,6 @@
 <div class="wrapper">
-	<div class="content full">
-		<h1>Order</h1>
+	<div class="hero content full">
+		<h1>Services</h1>
 	</div>
 </div>
 <div class="subsection full">
@@ -17,6 +17,6 @@
 		</div>
 	</div>
 	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products">
-		<div class="panel full" data-ng-include data-src="'app/pages/order/step1.html'"></div>
+		<div class="panel full" ng-show="panel.isSelected(1)" data-ng-include data-src="'app/pages/order/step1.html'"></div>
 	</form>
 </div>
