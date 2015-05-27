@@ -1,7 +1,7 @@
 <div class="full">
 	<h3>Contact</h3>
 	<p>
-		{{ client.client.company }}, {{ client.client.type }}
+		{{ client.client.company }} {{ client.client.type }}
 	</p>
 	<p ng-repeat="location in client.client.locations">
 		{{ location.address.street }}<br>
