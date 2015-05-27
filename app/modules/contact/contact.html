@@ -1,13 +1,13 @@
 <div class="full">
 	<h3>Contact</h3>
 	<p>
-		{{ client.company }}<br>
-		{{ client.address.street }}<br>
-		{{ client.address.city }}, {{ client.address.state }} {{ client.address.zip }}
+		{{ client.client.company }}<br>
+		{{ client.client.address.street }}<br>
+		{{ client.client.address.city }}, {{ client.client.address.state }} {{ client.client.address.zip }}
 	</p>
 	<p>
-		Email: <a href="mailto:{{ client.contact.email }}">{{ client.contact.email }}</a><br>
-		Phone: <a href="tel:{{ client.contact.phone }}">{{ client.contact.phone }}</a><br>
-		Fax: {{ client.contact.fax }}
+		Email: <a href="mailto:{{ client.contact.email }}">{{ client.client.contact.email }}</a><br>
+		Phone: <a href="tel:{{ client.contact.phone }}">{{ client.client.contact.phone }}</a><br>
+		Fax: {{ client.client.contact.fax }}
 	</p>
 </div>
