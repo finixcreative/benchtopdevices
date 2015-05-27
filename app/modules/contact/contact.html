@@ -1,13 +1,14 @@
 <div class="full">
 	<h3>Contact</h3>
 	<p>
-		{{ client.client.company }}<br>
-		{{ client.client.address.street }}<br>
-		{{ client.client.address.city }}, {{ client.client.address.state }} {{ client.client.address.zip }}
+		{{ client.client.company }}
+	</p>
+	<p ng-repeat="location in client.client.locations">
+		{{ location.address.street }}<br>
+		{{ location.address.city }}, {{ location.address.state }} {{ location.address.zip }}
 	</p>
 	<p>
 		Email: <a href="mailto:{{ client.contact.email }}">{{ client.client.contact.email }}</a><br>
 		Phone: <a href="tel:{{ client.contact.phone }}">{{ client.client.contact.phone }}</a><br>
-		Fax: {{ client.client.contact.fax }}
 	</p>
 </div>
