@@ -46,6 +46,10 @@ var client = {
 			'link': '',
 		},
 		{
+			'name': 'yelp',
+			'link': '',
+		},
+		{
 			'name': 'tumblr',
 			'link': '',
 		},
