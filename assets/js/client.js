@@ -19,39 +19,39 @@ var client = {
 	'socials': [
 		{
 			'name': 'facebook',
-			'link': '',
+			'link': 'www.facebook.com',
 		},
 		{
 			'name': 'twitter',
-			'link': '',
+			'link': 'www.twitter.com',
 		},
 		{
 			'name': 'linkedin',
-			'link': '',
+			'link': 'www.linkedin.com',
 		},
 		{
 			'name': 'google+',
-			'link': '',
+			'link': 'plus.google.com',
 		},
 		{
 			'name': 'youtube',
-			'link': '',
+			'link': 'www.youtube.com',
 		},
 		{
 			'name': 'instagram',
-			'link': '',
+			'link': 'www.instagram.com',
 		},
 		{
 			'name': 'pinterest',
-			'link': '',
+			'link': 'www.pinterest.com',
 		},
 		{
 			'name': 'yelp',
-			'link': '',
+			'link': 'www.yelp.com',
 		},
 		{
 			'name': 'tumblr',
-			'link': '',
+			'link': 'www.tumblr.com',
 		},
 	],
 };
