@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app='finixApp'>
+	<head>
+		<!-- Styles -->
+		<link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+		<link type="text/css" rel="stylesheet" href="assets/css/styles.css"/>
+		<!-- External Script Libraries -->
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-route.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-resource.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-animate.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular-touch.js'></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+		<!-- Base Scripts -->
+		<script type='text/javascript' src='app/app.js'></script>
+		<script type='text/javascript' src='app/routes.js'></script>
+		<!-- Page Scripts -->
+		<script type='text/javascript' src='app/pages/products/products.js'></script>
+		<script type='text/javascript' src='app/pages/products/products-srv.js'></script>
+		<script type='text/javascript' src='app/pages/products/products-ctrl.js'></script>
+		<script type='text/javascript' src='app/pages/services/services.js'></script>
+		<script type='text/javascript' src='app/pages/services/services-srv.js'></script>
+		<script type='text/javascript' src='app/pages/services/services-ctrl.js'></script>
+		<!-- Core Module Scripts -->
+		<script type='text/javascript' src='assets/client.js'></script>
+		<script type='text/javascript' src='assets/client-ctrl.js'></script>
+		<script type='text/javascript' src='app/modules/contact/contact-drv.js'></script>
+		<script type='text/javascript' src='app/modules/contact/contact-drv.js'></script>
+		<script type='text/javascript' src='app/modules/copyright/copyright-drv.js'></script>
+		<script type='text/javascript' src='app/modules/footer/footer-drv.js'></script>
+		<script type='text/javascript' src='app/modules/header/header-drv.js'></script>
+		<script type='text/javascript' src='app/modules/nav/nav-drv.js'></script>
+		<script type='text/javascript' src='app/modules/social/social.js'></script>
+		<script type='text/javascript' src='app/modules/social/social-ctrl.js'></script>
+		<script type='text/javascript' src='app/modules/social/social-drv.js'></script>
+		<!-- Additional Module Scripts -->
+		<script type='text/javascript' src='app/modules/panel/panel-ctrl.js'></script>
+	</head>
+	<body>
+		<appheader class='full'></appheader>
+		<div id="content" class='main full' ng-view></div>
+		<appfooter class='full'></appfooter>
+	</body>
+</html>
