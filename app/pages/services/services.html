@@ -7,17 +7,33 @@
 <div class="subsection full">
 	<div class="wrapper">
 		<div class="full">
-			<ul class="checkout nav full">
-				<li class="step content">
-					<p>Steps:</p>
-				</li>
-				<li class="step content" ng-class="{ active:panel.isSelected(1) }">
-					<a class="center" href ng-click="panel.selectTab(1)">1</a>
-				</li>
-			</ul>
+			<h3>Subsection Title</h3>
+			<h4>Subsection Subtitle</h4>
 		</div>
 	</div>
 	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products">
-		<div class="panel full" ng-show="panel.isSelected(1)" data-ng-include data-src="'app/pages/services/step1.html'"></div>
+		<div class="full">
+			<div class="tile eigth" ng-repeat="service in products.services | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+				<input type="checkbox" id="{{ service.title }}" name="{{ service.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
+				<label class="product full" for="{{ service.title }}">
+					<!--<img class="checkbox-image middle" ng-src="{{ service.image }}"/>-->
+					<div class="text-box full">
+						<h4>{{ service.title }}</h4>
+						<p class="italics">
+							Min. Order: <b>{{ service.minorder }}</b><br>
+							Frequency: <b>{{ service.frequency }}</b>
+						</p>
+					</div>
+					<div class="check-box full">
+						<img class="checkmark" src="assets/images/icons/icon-checkmark.png"/>
+					</div>
+				</label>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="content full">
+				<button class="submit button middle center" form="order" type="submit" value="Submit">Request Service</button>
+			</div>
+		</div>
 	</form>
 </div>
