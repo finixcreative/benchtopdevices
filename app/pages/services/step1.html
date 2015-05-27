@@ -1,0 +1,56 @@
+<div class="wrapper">
+	<div class="content full">
+		<h3>Step 1: Select Titles</h3>
+	</div>
+	<div class="content half">
+		<input class="button full" type="search" name="search" placeholder="Search Titles" ng-model="searchTitles">
+	</div>
+	<div class="content half">
+		<select class="button full" name="filter" ng-model="filterTitles">
+			<option value="" selected>All Magazines</option>
+			<option value="13 - Adult Sophisticates">Adult Sophisticates</option>
+			<option value="05 - Auto & Racing">Auto &amp; Racing</option>
+			<option value="07 - Business">Business</option>
+			<option value="08 - Children">Children</option>
+			<option value="09 - Computer">Computer</option>
+			<option value="15 - Cooking">Cooking</option>
+			<option value="14 - Ethnic">Ethnic</option>
+			<option value="16 - Home & Garden">Home &amp; Garden</option>
+			<option value="04 - Men & Fashion">Men &amp; Fashion</option>
+			<option value="17 - Miscellaneous">Miscellaneous</option>
+			<option value="10 - Music">Music</option>
+			<option value="02 - News & Entertainment">News &amp; Entertainment</option>
+			<option value="12 - Puzzles & Crosswords">Puzzles &amp; Crosswords</option>
+			<option value="03 - Sports & Health">Sports &amp; Health</option>
+			<option value="01 - Tabloids">Tabloids</option>
+			<option value="11 - Teen">Teen</option>
+			<option value="06 - Women & Fashion">Women &amp; Fashion</option>
+		</select>
+	</div>
+</div>
+<div class="full">
+	<div class="tile eigth" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+		<input type="checkbox" id="{{ product.title }}" name="{{ product.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
+		<label class="product full" for="{{ product.title }}">
+			<img class="checkbox-image middle" ng-src="{{ product.image }}"/>
+			<div class="text-box full">
+				<h4>{{ product.title }}</h4>
+				<p class="italics">
+					Min. Order: <b>{{ product.minorder }}</b><br>
+					Frequency: <b>{{ product.frequency }}</b>
+				</p>
+			</div>
+			<div class="check-box full">
+				<img class="checkmark" src="assets/images/icons/icon-checkmark.png"/>
+			</div>
+		</label>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="content full">
+		<div class="quarter" ng-repeat="product in products.products | orderBy: ['genre', 'title'] | filter:{'order':'selected'}">
+			<p>{{ product.title }}</p>		
+		</div>
+		<button class="submit button middle center" ng-click="panel.selectTab(2)">Next ></button>
+	</div>
+</div>
