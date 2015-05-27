@@ -1,5 +1,6 @@
 var client = {
 	'company': 'Benchtop Devices',
+	'type': 'LLC',
 	'contact': {
 		'email': 'tony@benchtopdevices.com',
 		'phone': '603-283-6138',
