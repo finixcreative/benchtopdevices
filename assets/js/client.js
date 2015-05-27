@@ -1,17 +1,17 @@
 var client = {
-	'company': '',
+	'company': 'Benchtop Devices',
 	'contact': {
-		'email': '',
-		'phone': '',
+		'email': 'tony@benchtopdevices.com',
+		'phone': '603-256-6100',
 		'fax': '',
 	},
 	'locations': [
 		{
 			'address': {
-				'street': '',
-				'city': '',
-				'state': '',
-				'zip': '',
+				'street': 'Box 357 / 518 Route 9',
+				'city': 'West Chesterfield',
+				'state': 'NH',
+				'zip': '03466',
 			},
 			'map': '',
 		},
