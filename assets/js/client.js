@@ -2,9 +2,9 @@ var client = {
 	'company': 'Benchtop Devices',
 	'contact': {
 		'email': 'tony@benchtopdevices.com',
-		'phone': '603-256-6100',
-		'cell': '',
-		'fax': '',
+		'phone': '603-283-6138',
+		'cell': '603-801-4551',
+		'fax': '480-247-4057',
 	},
 	'locations': [
 		{
