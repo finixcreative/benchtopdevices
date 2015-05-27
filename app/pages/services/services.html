@@ -1,0 +1,22 @@
+<div class="wrapper">
+	<div class="content full">
+		<h1>Order</h1>
+	</div>
+</div>
+<div class="subsection full">
+	<div class="wrapper">
+		<div class="full">
+			<ul class="checkout nav full">
+				<li class="step content">
+					<p>Steps:</p>
+				</li>
+				<li class="step content" ng-class="{ active:panel.isSelected(1) }">
+					<a class="center" href ng-click="panel.selectTab(1)">1</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products">
+		<div class="panel full" data-ng-include data-src="'app/pages/order/step1.html'"></div>
+	</form>
+</div>

@@ -9,14 +9,11 @@ angular.module('finixApp')
 				controller: '',
 				controllerAs: '',
 			})
-			.when('/about', {
-				templateUrl: 'app/pages/about/about.html',
-			})
 			.when('/technical', {
 				templateUrl: 'app/pages/technical/technical.html',
 			})
-			.when('/contact', {
-				templateUrl: 'app/pages/contact/contact.html',
+			.when('/about', {
+				templateUrl: 'app/pages/about/about.html',
 			})
 			.otherwise({
 				redirectTo: '/',
