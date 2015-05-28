@@ -180,6 +180,7 @@ input[type=checkbox]:checked + label.product > .text-box {
 	padding: 20px;
 	position: absolute;
 	top: 0;
+	left: 0;
 	text-align: center;
 	display: none;
 }
@@ -350,7 +351,7 @@ a.sublink:hover {
 #submit a {
 	color: #fff;
 }
-.panel 
+.panel {}
 .category {
 	width: 260px;
 	padding: 15px 30px;
