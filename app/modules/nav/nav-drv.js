@@ -3,7 +3,7 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			templateUrl: '/benchtopdevices/app/modules/nav/nav.html',
-			controller: 'ClientController',
-			controllerAs: 'client',
+			controller: '',
+			controllerAs: '',
 		};
 	});
