@@ -158,23 +158,8 @@ form {}
 .tile:active,
 .tile:focus,
 .tile:checked {}
-.text-box {
-	background: rgba(68,68,68,0.8);
-	color: #fff;
-	height: 100%;
-	padding: 20px;
-	position: absolute;
-	top: 0;
-	text-align: center;
-	display: block;
-	cursor: pointer;
-}
-.tile:hover .text-box,
-input[type=checkbox]:checked + label.product > .text-box {
-	display: none;
-}
+.text-box,
 .check-box {
-	background: rgba(51,170,255,0.8);
 	color: #fff;
 	height: 100%;
 	padding: 20px;
@@ -182,6 +167,18 @@ input[type=checkbox]:checked + label.product > .text-box {
 	top: 0;
 	left: 0;
 	text-align: center;
+	cursor: pointer;
+}
+.text-box {
+	background: rgba(68,68,68,0.8);
+	display: block;
+}
+.tile:hover .text-box,
+input[type=checkbox]:checked + label.product > .text-box {
+	display: none;
+}
+.check-box {
+	background: rgba(125,40,125,0.8);
 	display: none;
 }
 .check-box img {
