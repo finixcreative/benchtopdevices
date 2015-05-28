@@ -270,7 +270,7 @@ footer p a {
 	font-weight: 700;
 }
 footer p a:hover {
-	color: #7d287d;
+	text-decoration: underline;
 }
 .copyright p {
 	font-size: 0.75em;
