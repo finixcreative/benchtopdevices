@@ -13,16 +13,14 @@
 	</div>
 	<form id="order" class="full" action="mailto:rsmith@finixcreative.com" method="post" enctype="text/plain" ng-controller="ProductsController as products">
 		<div class="full">
-			<div class="tile quarter" ng-repeat="service in products.services | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
+			<div class="tile {{service.size}}" ng-repeat="service in products.services | orderBy: ['genre', 'title'] | filter: searchTitles | filter: filterTitles">
 				<input type="checkbox" id="{{ service.title }}" name="{{ service.title }}" value="selected" ng-model="product.order" ng-true-value="selected" ng-false-value="unselected"/>
-				<label class="product full" for="{{ service.title }}">
-					<img class="checkbox-image middle" ng-src="{{ service.image }}"/>
+				<label class="product full" for="{{service.title}}">
+					<img class="checkbox-image middle" ng-src="{{service.image}}"/>
 					<div class="text-box full">
-						<h4>{{ service.title }}</h4>
-						<p class="italics">
-							Min. Order: <b>{{ service.minorder }}</b><br>
-							Frequency: <b>{{ service.frequency }}</b>
-						</p>
+						<h4>{{service.title}}</h4>
+						<p>{{service.description}}</p>
+						<p><b>{{service.cost}}</b></p>
 					</div>
 					<div class="check-box full">
 						<img class="checkmark" src="assets/images/icons/icon-checkmark.png"/>
