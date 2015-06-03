@@ -26,7 +26,8 @@ button {
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	background: #444;
+	background: url("../images/low_contrast_linen.png") #444;
+	background-attachment: fixed;
 	color: #444;
 	margin: 0px;
 	overflow-x: hidden;
@@ -260,7 +261,6 @@ input[type=text] {
 	color: #444;
 }
 footer {
-	background: #444;
 	color: #fff;
 	border-top: 1px solid #ccc;
 	position: absolute;
@@ -284,8 +284,6 @@ footer p a:hover {
 	margin: 0 auto;
 }
 #content {
-	background: url("../images/low_contrast_linen.png");
-	background-attachment: fixed;
 	width: 100%;
 	padding: 74px 0 0 0;
 }
