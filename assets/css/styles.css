@@ -290,6 +290,55 @@ footer p a:hover {
 	width: 100%;
 	padding: 71px 0 0 0;
 }
+.slider {height: 100%;}
+.slide {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 40px 0;
+	position: relative;
+}
+.slide.ng-enter {
+	left: 100%;
+}
+.slide.ng-enter.ng-enter-active,
+.slide.ng-move.ng-move-active,
+.slide.ng-leave {
+	left: 0%;
+}
+.slide.ng-leave.ng-leave-active {
+	left: -100%;
+}
+button#prev {
+	left: 0;
+}
+button#next {
+	right: 0;
+}
+button.slidenav {
+	background: none;
+	color: rgba(0,0,0,0.2);
+	height: 100%;
+	margin: 0;
+	padding: 20px;
+	border: none;
+	font-size: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	display: table-cell;
+	z-index: 998;
+}
+button.slidenav:hover {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+	cursor: pointer;
+}
+button.slidenav:focus {
+	outline: none;
+}
 .content {
 	padding: 20px;
 }
@@ -400,6 +449,15 @@ a.sublink:hover {
 	}
 	.category {
 		width: 100%;
+	}
+	.slide {
+		padding: 0;
+	}
+	.slide h1 {
+		margin-top: 0;
+	}
+	button.slidenav {
+		display: none;
 	}
 }
 @media screen and (max-width: 585px), only screen and (-webkit-device-pixel-ratio: 2) {}
