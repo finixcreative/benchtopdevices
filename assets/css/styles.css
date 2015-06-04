@@ -399,8 +399,4 @@ a.sublink:hover {
 		width: 100%;
 	}
 }
-@media screen and (max-width: 585px), only screen and (-webkit-device-pixel-ratio: 2) {
-	.right-float {
-		float: left;
-	}
-}
+@media screen and (max-width: 585px), only screen and (-webkit-device-pixel-ratio: 2) {}
