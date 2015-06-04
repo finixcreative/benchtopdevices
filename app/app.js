@@ -3,5 +3,6 @@ angular.module('finixApp', [
 	'ngAnimate',
 	'coreMod',
 	'panelMod',
+	'slidesMod',
 	'productsMod'
 ]);
