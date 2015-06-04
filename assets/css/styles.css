@@ -79,7 +79,7 @@ header a img {
 }
 nav {}
 nav ul li a {
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 ul {
 	width: 100%;

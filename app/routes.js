@@ -1,7 +1,7 @@
 angular.module('finixApp')
 	.config(['$routeProvider', function($routeProvider) {
 		$routeProvider
-			.when('/', {
+			.when('/home', {
 				templateUrl: 'app/pages/home/home.html',
 			})
 			.when('/services', {
@@ -16,6 +16,6 @@ angular.module('finixApp')
 				templateUrl: 'app/pages/about/about.html',
 			})
 			.otherwise({
-				redirectTo: '/',
+				redirectTo: '/home',
 			});
 	}]);
