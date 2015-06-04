@@ -299,16 +299,17 @@ footer p a:hover {
 	padding: 40px 0;
 	position: relative;
 }
-.slide.ng-enter {
-	left: 100%;
+.slide.ng-animate {
+	top: 0px;
 }
-.slide.ng-enter.ng-enter-active,
-.slide.ng-move.ng-move-active,
-.slide.ng-leave {
+.slide.ng-hide {
+	left: -100%;
+}
+.slide.ng-hide-remove {
 	left: 0%;
 }
-.slide.ng-leave.ng-leave-active {
-	left: -100%;
+.slide.ng-hide-remove-active {
+	left: 100%;
 }
 button#prev {
 	left: 0;
