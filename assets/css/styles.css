@@ -393,7 +393,7 @@ a.sublink:hover {
 @media screen and (max-width: 768px) {}
 @media screen and (max-width: 640px), only screen and (-webkit-device-pixel-ratio: 2) {
 	p {
-		font-size: 20px;
+		font-size: 32px;
 	}
 	#content {
 		top: 140px;
