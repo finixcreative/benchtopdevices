@@ -304,11 +304,12 @@ footer p a:hover {
 }
 .slide.ng-hide {
 	left: -100%;
-}
-.slide.ng-hide-remove {
-	left: 0%;
+	top: 0px;
 }
 .slide.ng-hide-remove-active {
+	left: 0%;
+}
+.slide.ng-hide-remove {
 	left: 100%;
 }
 button#prev {
