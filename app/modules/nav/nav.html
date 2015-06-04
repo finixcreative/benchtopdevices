@@ -1,5 +1,8 @@
 <nav class="desktop full">
 	<ul class="wrapper">
+		<li ng-repeat="page in sitemap.pages">
+			<a href="#/{{page.title}}">Home</a>
+		</li>
 		<li>
 			<a href="#/">Home</a>
 		</li>

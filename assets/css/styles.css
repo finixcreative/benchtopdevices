@@ -78,6 +78,9 @@ header a img {
 	height: 30px;
 }
 nav {}
+nav ul li a {
+	text-transform: capitalize;
+}
 ul {
 	width: 100%;
 	padding: 0;
