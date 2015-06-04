@@ -1,7 +1,7 @@
 var images = [
 	{
 		"background": {
-			"img": "assets/images/zoom-40952736-3.jpg",
+			"img": "assets/images/istock/zoom-40952736-3.jpg",
 			"color": "#",
 			"position": "center",
 		},
@@ -18,7 +18,7 @@ var images = [
 	},
 	{
 		"background": {
-			"img": "assets/images/products/zoom-39527184-3.jpg",
+			"img": "assets/images/istock/zoom-39527184-3.jpg",
 			"color": "#",
 			"position": "center",
 		},
