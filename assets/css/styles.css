@@ -307,10 +307,10 @@ footer p a:hover {
 	top: 0px;
 }
 .slide.ng-hide-remove-active {
-	left: 0%;
+	left: 100%;
 }
 .slide.ng-hide-remove {
-	left: 100%;
+	left: 0%;
 }
 button#prev {
 	left: 0;
