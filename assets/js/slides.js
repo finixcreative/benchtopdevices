@@ -12,7 +12,7 @@ var images = [
 		"links": [
 			{
 				"text": "Get service >",
-				"url": "#/service",
+				"url": "#/services",
 			},
 		],
 	},
@@ -29,7 +29,7 @@ var images = [
 		"links": [
 			{
 				"text": "Get service >",
-				"url": "#/service",
+				"url": "#/services",
 			},
 		],
 	},
