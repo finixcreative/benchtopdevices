@@ -1,12 +1,28 @@
 var client = {
 	'company': 'Benchtop Devices',
 	'type': 'LLC',
-	'contact': {
-		'email': 'tony@benchtopdevices.com',
-		'phone': '603-283-6138',
-		'cell': '603-801-4551',
-		'fax': '480-247-4057',
-	},
+	'contacts': [
+		{
+			'type': 'email',
+			'info': 'tony@benchtopdevices.com',
+			'method': 'mailto:',
+		},
+		{
+			'type': 'phone',
+			'info': '603-283-6138',
+			'method': 'tel:',
+		},
+		{
+			'type': 'cell',
+			'info': '603-801-4551',
+			'method': 'tel:',
+		},
+		{
+			'type': 'fax',
+			'info': '480-247-4057',
+			'method': '',
+		},
+	],
 	'locations': [
 		{
 			'address': {
