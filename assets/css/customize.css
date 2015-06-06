@@ -290,28 +290,6 @@ footer p a:hover {
 	width: 100%;
 	padding: 71px 0 0 0;
 }
-.slider {height: 100%;}
-.slide {
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover;
-	color: #fff;
-	padding: 40px 0;
-	position: relative;
-}
-.slide.ng-animate {
-	top: 0px;
-}
-.slide.ng-hide {
-	left: -100%;
-	top: 0px;
-}
-.slide.ng-hide-remove-active {
-	left: 100%;
-}
-.slide.ng-hide-remove {
-	left: 0%;
-}
 button#prev {
 	left: 0;
 }
