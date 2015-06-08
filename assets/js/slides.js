@@ -6,13 +6,14 @@ var images = [
 			"position": "center",
 		},
 		"id": "slide1",
+		"state": "active",
 		"headline": "Leak Detection",
 		"subheadline": "Subheadline",
 		"text": "Lorem Ipsum",
 		"links": [
 			{
 				"text": "Get service >",
-				"url": "#/services",
+				"url": "#/service",
 			},
 		],
 	},
@@ -23,13 +24,14 @@ var images = [
 			"position": "center",
 		},
 		"id": "slide2",
+		"state": "",
 		"headline": "Leak Location",
 		"subheadline": "Subheadline",
 		"text": "Lorem Ipsum",
 		"links": [
 			{
 				"text": "Get service >",
-				"url": "#/services",
+				"url": "#/service",
 			},
 		],
 	},
