@@ -290,35 +290,6 @@ footer p a:hover {
 	width: 100%;
 	padding: 71px 0 0 0;
 }
-button#prev {
-	left: 0;
-}
-button#next {
-	right: 0;
-}
-button.slidenav {
-	background: none;
-	color: rgba(0,0,0,0.2);
-	height: 100%;
-	margin: 0;
-	padding: 20px;
-	border: none;
-	font-size: 50px;
-	line-height: 50px;
-	vertical-align: middle;
-	position: absolute;
-	top: 0;
-	display: table-cell;
-	z-index: 998;
-}
-button.slidenav:hover {
-	background: rgba(255,255,255,0.2);
-	color: #fff;
-	cursor: pointer;
-}
-button.slidenav:focus {
-	outline: none;
-}
 .content {
 	padding: 20px;
 }
