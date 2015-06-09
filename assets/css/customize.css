@@ -196,31 +196,13 @@ input[type=checkbox]:checked + label.product > .text-box {
 input[type=checkbox]:checked + label.product > .check-box {
 	display: block;
 }
-.button {
-	background: none;
-	color: #444;
-	border: 1px solid #444;
-	border-radius: 100px;
-	display: block;
-	cursor: pointer;
-}
-.hero .button {
-	color: #fff;
-	border: 1px solid #fff;
-}
 .button:hover,
 .button:active,
 .button:focus,
 .button:checked {
 	background: #fff;
 	color: #7d287d;
-	border: 1px solid #7d287d;
-}
-.cta,
-.submit {
-	padding: 15px 20px;
-	font-weight: 700;
-	text-transform: uppercase;
+	border: 2px solid #7d287d;
 }
 label {
 	cursor: pointer;
