@@ -42,7 +42,7 @@ var images = [
 			"position": "center",
 		},
 		"id": "slide1",
-		"state": "active",
+		"state": "",
 		"headline": "Slide 3",
 		"subheadline": "Subheadline",
 		"text": "Lorem Ipsum",
