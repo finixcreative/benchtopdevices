@@ -14,8 +14,8 @@
 	<form id="order" class="full" action="" method="post" enctype="text/plain">
 		<div class="full" ng-controller="ProductsController as products">
 			<div class="tile {{service.size}}" ng-repeat="service in products.services | orderBy: ['cost', 'title']">
-				<img class="checkbox-image middle" ng-src="{{service.image}}"/>
-				<div class="text-box full">
+				<img class="middle" ng-src="{{service.image}}"/>
+				<div class="full">
 					<h4>{{service.title}}</h4>
 					<p>{{service.description}}</p>
 					<p><b>{{service.cost}}</b></p>
