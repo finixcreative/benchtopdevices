@@ -157,6 +157,7 @@ form {}
 }
 .tile img {
 	height: 200px;
+	background: #ccc;
 }
 .tile:hover,
 .tile:active,
