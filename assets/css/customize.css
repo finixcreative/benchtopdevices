@@ -72,12 +72,6 @@ header a {
 }
 header a:hover {
 	color: #7d287d;
-	border-bottom: 4px solid #7d287d;
-}
-header a:focus,
-header a:active {
-	color: #444;
-	border-bottom: 4px solid #444;
 }
 header a img {
 	width: auto;
