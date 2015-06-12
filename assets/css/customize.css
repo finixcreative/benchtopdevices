@@ -69,6 +69,10 @@ header a {
 	padding: 20px;
 	float: left;
 	font-weight: 700;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
 }
 header a:hover {
 	color: #7d287d;
