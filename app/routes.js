@@ -3,6 +3,8 @@ angular.module('finixApp')
 		$routeProvider
 			.when('/home', {
 				templateUrl: 'app/pages/home/home.html',
+				controller: 'SitemapController',
+				controllerAs: 'sitemap',
 			})
 			.when('/services', {
 				templateUrl: 'app/pages/services/services.html',
