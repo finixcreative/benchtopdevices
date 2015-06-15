@@ -282,25 +282,12 @@ footer p a:hover {
 .hero img {
 	max-width: 100%;
 }
-.subsection {
-	background: #fff;
-}
-.subsection p a {
-	font-weight: 700;
-	color: #444;
-}
-.subsection p a:hover {
-	color: #7d287d;
-}
-.subsection-alt {
-	background: #ccc;
-}
-a.sublink {
-	color: #444
-}
-a.sublink:hover {
-	background: rgba(68,68,68,0.1);
-}
+.subsection {}
+.subsection p a {}
+.subsection p a:hover {}
+.subsection.alt {}
+a.sublink {}
+a.sublink:hover {}
 #bbb {
 	position: relative;
 	top: 50%;
