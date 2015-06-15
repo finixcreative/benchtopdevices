@@ -8,7 +8,8 @@ var sitemap = {
 						{
 							title: 'Fixture design, custom testers, & contract machining',
 							subtitle: '',
-							classes: 'subsection-major sublink content full',
+							template: 'subsection-major',
+							classes: 'sublink content full',
 							link: '#/services',
 							image: {
 								src: 'assets/images/repair.jpg',
@@ -25,7 +26,8 @@ var sitemap = {
 						{
 							title: 'Technical Information',
 							subtitle: '',
-							classes: 'subsection-minor half content center sublink',
+							template: 'subsection-minor',
+							classes: 'half content center sublink',
 							link: '#/technical',
 							image: {
 								src: '',
@@ -37,7 +39,8 @@ var sitemap = {
 						{
 							title: 'About Us',
 							subtitle: '',
-							classes: 'subsection-minor half content center sublink',
+							template: 'subsection-minor',
+							classes: 'half content center sublink',
 							link: '#/about',
 							image: {
 								src: '',
