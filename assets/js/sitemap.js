@@ -1,6 +1,7 @@
 var sitemap = {
 	pages: [
 		{
+			title: 'home',
 			rows: [
 				{
 					classes: 'row full',
