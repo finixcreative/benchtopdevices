@@ -151,29 +151,6 @@ form {}
 .form-body {
 	border: 1px solid #ccc;
 }
-.tile {
-	border: 1px solid #fff;
-	position: relative;
-}
-.tile img {
-	height: 200px;
-	background: #ccc;
-}
-.tile:hover,
-.tile:active,
-.tile:focus,
-.tile:checked {}
-.text-box,
-.check-box {
-	color: #fff;
-	height: 100%;
-	padding: 20px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	text-align: center;
-	cursor: pointer;
-}
 .text-box {
 	background: rgba(68,68,68,0.8);
 	display: block;

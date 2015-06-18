@@ -14,7 +14,7 @@
 	<form id="order" class="full" action="" method="post" enctype="text/plain">
 		<div class="full" ng-controller="ProductsController as products">
 			<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-				<img class="middle" ng-src="{{service.image}}"/>
+				<img class="full middle" ng-src="{{service.image}}"/>
 				<div class="center full">
 					<h4>{{service.title}}</h4>
 					<p>{{service.description}}</p>
