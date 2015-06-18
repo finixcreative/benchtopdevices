@@ -1,6 +1,8 @@
 var client = {
 	'company': 'Benchtop Devices',
 	'type': 'LLC',
+	'logo': 'assets/images/logo-benchtop_devices.png',
+	'cta': '603-283-6138',
 	'contacts': [
 		{
 			'type': 'email',
