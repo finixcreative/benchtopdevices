@@ -4,24 +4,16 @@
 		<h2>Subheader</h2>
 	</div>
 </div>
-<div class="subsection full">
+<div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
-		<div class="content full">
-			<h3>Subsection Title</h3>
-			<h4>Subsection Subtitle</h4>
-		</div>
-	</div>
-	<div class="full" ng-controller="ProductsController as products">
-		<div class="wrapper">
-			<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-				<img class="full" ng-src="{{service.image}}"/>
-				<div class="center full">
-					<h4>{{service.title}}</h4>
-					<p><b>{{service.cost}}</b></p>
-				</div>
-				<div class="full">
-					<p>{{service.description}}</p>
-				</div>
+		<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+			<img class="full" ng-src="{{service.image}}"/>
+			<div class="center full">
+				<h3>{{service.title}}</h3>
+				<p><b>{{service.cost}}</b></p>
+			</div>
+			<div class="full">
+				<p>{{service.description}}</p>
 			</div>
 		</div>
 	</div>
