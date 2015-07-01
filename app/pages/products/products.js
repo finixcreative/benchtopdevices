@@ -7,7 +7,7 @@ var products = [
 			src: 'assets/images/istock/zoom-40952736-3.jpg',
 			alt: 'product 1'
 		},
-		link: 'www.finixcreative.com',
+		link: 'http://www.finixcreative.com',
 	},
 	{
 		name: 'Test Instruments',
@@ -17,7 +17,7 @@ var products = [
 			src: 'assets/images/istock/zoom-40952736-3.jpg',
 			alt: 'product 1'
 		},
-		link: 'www.finixcreative.com',
+		link: 'http://www.finixcreative.com',
 	},
 	{
 		name: 'CTS Connect',
@@ -27,6 +27,6 @@ var products = [
 			src: 'assets/images/istock/zoom-40952736-3.jpg',
 			alt: 'product 1'
 		},
-		link: 'www.finixcreative.com',
+		link: 'http://www.finixcreative.com',
 	},
 ];
