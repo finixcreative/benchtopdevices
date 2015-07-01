@@ -11,6 +11,11 @@ angular.module('finixApp')
 				controller: 'PanelController',
 				controllerAs: 'panel',
 			})
+			.when('/products', {
+				templateUrl: 'app/pages/products/products.html',
+				controller: 'PanelController',
+				controllerAs: 'panel',
+			})
 			.when('/technical', {
 				templateUrl: 'app/pages/technical/technical.html',
 			})
