@@ -71,6 +71,22 @@ var sitemap = {
 			],
 		},
 		{
+			title: 'products',
+			logo: '',
+			background: '',
+			headline: '',
+			subheadline: '',
+			text: '',
+			subsections: [
+				{
+					headline: '',
+					subheadline: '',
+					text: '',
+					size: '',
+				},
+			],
+		},
+		{
 			title: 'technical',
 			logo: '',
 			background: '',
