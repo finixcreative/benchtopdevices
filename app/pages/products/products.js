@@ -4,7 +4,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/test_systems.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
@@ -14,7 +14,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/test_instruments.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
@@ -24,7 +24,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/cts_connect.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
@@ -34,7 +34,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/industries_served.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
@@ -44,7 +44,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/resources.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
@@ -54,7 +54,7 @@ var products = [
 		size: 'third',
 		classes: 'tile content',
 		img: {
-			src: 'assets/images/istock/zoom-40952736-3.jpg',
+			src: 'assets/images/cts/check_it_out.jpg',
 			alt: 'product 1'
 		},
 		link: 'http://www.finixcreative.com',
