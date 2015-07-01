@@ -1,6 +1,17 @@
 <slides images="images"></slides>
-<row class="{{row.classes}}" ng-repeat="row in sitemap.sitemap.pages[0].rows"></row>
-
+<div class="row full">
+	<div class="wrapper">
+		<a class="sublink full" href="#/services">
+			<div class="content third">
+				<img class="full" src="assets/images/logo-benchtop_devices.png" alt=""/>
+			</div>
+			<div class="content twothird">
+				<h3>Fixture design, custom testers, & contract machining</h3>
+				<p>We offer leak detection and location services to customers in the New England region.</p>
+			</div>
+		</a>
+	</div>
+</div>
 <div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
 		<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
@@ -13,19 +24,6 @@
 				<p>{{service.description}}</p>
 			</div>
 		</div>
-	</div>
-</div>
-<div class="row full">
-	<div class="wrapper">
-		<a class="sublink full" href="#/services">
-			<div class="content third">
-				<img class="full" src="assets/images/logo-benchtop_devices.png" alt=""/>
-			</div>
-			<div class="content twothird">
-				<h3>Fixture design, custom testers, & contract machining</h3>
-				<p>We offer leak detection and location services to customers in the New England region.</p>
-			</div>
-		</a>
 	</div>
 </div>
 <div class="row full alt">
