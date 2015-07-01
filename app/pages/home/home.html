@@ -1,6 +1,20 @@
 <slides images="images"></slides>
 <row class="{{row.classes}}" ng-repeat="row in sitemap.sitemap.pages[0].rows"></row>
 
+<div class="subsection full" ng-controller="ProductsController as products">
+	<div class="wrapper">
+		<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+			<img class="full" ng-src="{{service.image}}"/>
+			<div class="center full">
+				<h3>{{service.title}}</h3>
+				<p><b>{{service.cost}}</b></p>
+			</div>
+			<div class="full">
+				<p>{{service.description}}</p>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="row full">
 	<div class="wrapper">
 		<a class="sublink full" href="#/services">
