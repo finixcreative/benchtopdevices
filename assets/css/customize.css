@@ -261,7 +261,9 @@ footer p a:hover {
 }
 .subsection {}
 .subsection p a {}
-.subsection p a:hover {}
+.subsection p a:hover {
+	color: #7d287d;
+}
 .subsection.alt {}
 a.sublink {}
 a.sublink:hover {}
