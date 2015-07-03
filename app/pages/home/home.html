@@ -1,10 +1,10 @@
-<div class="full" style="background:url(assets/images/istock/zoom-54501812-3.jpg) center; background-size: cover; background-attachment: fixed;">
+<div class="hero full">
 	<div class="wrapper">
 		<a class="sublink full" href="#/services">
 			<div class="content third">
 				<img class="full" src="assets/images/logo-benchtop_devices.png" alt=""/>
 			</div>
-			<div class="hero content twothird center">
+			<div class="content twothird center">
 				<h1>Leak Detection &amp; Leak Location</h1>
 			</div>
 		</a>
@@ -17,8 +17,8 @@
 			<h3>Serving the New England region</h3>
 		</div>
 		<a class="sublink {{service.size}}" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-			<div class="content full" style="background:url({{service.image}}) #ccc center; background-size: cover;">
-				<div class="hero content center full">
+			<div class="hero content full" style="background:url({{service.image}})">
+				<div class="content center full">
 					<h3><b>{{service.title}} Services</b></h3>
 				</div>
 			</div>
