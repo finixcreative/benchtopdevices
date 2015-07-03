@@ -7,7 +7,7 @@ var products = [
 			src: 'assets/images/cts/test_systems.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 	{
 		name: 'Test Instruments',
@@ -17,7 +17,7 @@ var products = [
 			src: 'assets/images/cts/test_instruments.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 	{
 		name: 'CTS Connect',
@@ -27,7 +27,7 @@ var products = [
 			src: 'assets/images/cts/cts_connect.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 	{
 		name: 'Industries Served',
@@ -37,7 +37,7 @@ var products = [
 			src: 'assets/images/cts/industries_served.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 	{
 		name: 'Resources',
@@ -47,7 +47,7 @@ var products = [
 			src: 'assets/images/cts/resources.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 	{
 		name: 'Check it out!',
@@ -57,6 +57,6 @@ var products = [
 			src: 'assets/images/cts/check_it_out.jpg',
 			alt: 'product 1'
 		},
-		link: 'http://www.finixcreative.com',
+		link: 'http://www.cincinnati-test.com',
 	},
 ];
