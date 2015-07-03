@@ -15,7 +15,7 @@
 		</div>
 		<div class="full content" ng-controller="ProductsController as products">
 			<div class="{{product.size}} {{product.classes}}" ng-repeat="product in products.products">
-				<a href="{{product.link}}" class="full">
+				<a href="{{product.link}}" class="full" target="_blank">
 					<img class="full" src="{{product.img.src}}" alt="{{product.img.alt}}">
 					<button class="middle button" style="font-weight:700; text-transform:uppercase;">{{product.name}}</button>
 				</a>
