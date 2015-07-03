@@ -6,17 +6,17 @@
 			</div>
 			<div class="hero content twothird">
 				<h1>Leak Detection &amp; Leak Location</h1>
-				<h2>Fixture design, custom testers, &amp; contract machining. Serving the New England region.</h2>
 			</div>
 		</a>
 	</div>
 </div>
 <div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
+		<h2>Fixture design, custom testers, &amp; contract machining. Serving the New England region.</h2>
 		<a class="sublink {{service.size}}" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
 			<div class="content full" style="background:url({{service.image}}) #ccc center; background-size: cover;">
 				<div class="hero content center full">
-					<h3><b>{{service.title}}</b></h3>
+					<h3><b>{{service.title}} Services</b></h3>
 				</div>
 			</div>
 		</a>
