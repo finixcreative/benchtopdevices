@@ -1,4 +1,4 @@
-<div class="full">
+<div class="full" style="background:url(assets/images/istock/zoom-45991698-3.jpg) center; background-size: cover;">
 	<div class="wrapper">
 		<a class="sublink full" href="#/services">
 			<div class="content third">
@@ -14,7 +14,7 @@
 <div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
 		<a class="sublink {{service.size}}" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-			<div class="tile content full" style="background:url({{service.image}}) #ccc center; background-size: cover;">
+			<div class="content full" style="background:url({{service.image}}) #ccc center; background-size: cover;">
 				<div class="hero content center full">
 					<h3><b>{{service.title}}</b></h3>
 				</div>
