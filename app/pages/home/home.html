@@ -13,11 +13,13 @@
 </div>
 <div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
-		<div class="tile content {{service.size}}" style="background:url({{service.image}}) #ccc center; background-size: cover;" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-			<div class="hero center full">
-				<h3>{{service.title}}</h3>
+		<a class="sublink full" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+			<div class="tile content {{service.size}}" style="background:url({{service.image}}) #ccc center; background-size: cover;">
+				<div class="hero center full">
+					<h3>{{service.title}}</h3>
+				</div>
 			</div>
-		</div>
+		</a>
 	</div>
 </div>
 <div class="row full alt">
