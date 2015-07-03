@@ -13,9 +13,8 @@
 </div>
 <div class="subsection full" ng-controller="ProductsController as products">
 	<div class="wrapper">
-		<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
-			<img class="full" ng-src="{{service.image}}"/>
-			<div class="center full">
+		<div class="tile content {{service.size}}" style="background:url({{service.image}}) #ccc center; background-size: cover;" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+			<div class="hero center full">
 				<h3>{{service.title}}</h3>
 			</div>
 		</div>
