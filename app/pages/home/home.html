@@ -15,8 +15,8 @@
 	<div class="wrapper">
 		<a class="sublink {{service.size}}" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
 			<div class="tile content full" style="background:url({{service.image}}) #ccc center; background-size: cover;">
-				<div class="hero center full">
-					<h3>{{service.title}}</h3>
+				<div class="hero content center full">
+					<h3><b>{{service.title}}</b></h3>
 				</div>
 			</div>
 		</a>
