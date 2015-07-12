@@ -2,8 +2,8 @@ var content = {
 	home: {
 		hero: {
 			image: {
-				src = "assets/images/logo-benchtop_devices.png",
-				alt = "BenchTop Devices logo",
+				src: "assets/images/logo-benchtop_devices.png",
+				alt: "BenchTop Devices logo",
 			},
 			text: {
 				headline: "Serving New England with:",
