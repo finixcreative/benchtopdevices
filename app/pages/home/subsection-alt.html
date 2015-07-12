@@ -1,0 +1,16 @@
+<div class="subsection full" ng-controller="ProductsController as products">
+	<div class="wrapper">
+		<div class="content center">
+			<h1>Leak Detection &amp; Leak Location</h1>
+			<h2>Fixture design, custom testers, &amp; contract machining</h2>
+			<h3>Serving the New England region</h3>
+		</div>
+		<a class="sublink {{service.size}}" href="#/services" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+			<div class="content full" style="background:url({{service.image}}) center; background-size: cover;">
+				<div class="white-text content center full">
+					<h3><b>{{service.title}} Services</b></h3>
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
