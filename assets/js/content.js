@@ -13,7 +13,7 @@ var content = {
 					{text: "Contract Machining"},
 				],
 			},
-		};
+		},
 		subsections: [
 			{
 				logo: {
@@ -39,6 +39,6 @@ var content = {
 				classes: 'content',
 				size: 'half',
 			},
-		];
+		],
 	},
-}
+};
