@@ -24,6 +24,10 @@ var content = {
 				subheadline: 'Pressure Decay ~ Mass Flow',
 				text: '',
 				image: 'assets/images/',
+				link: {
+					text: 'Learn More!',
+					href: 'http://www.cincinnati-test.com/',
+				},
 				classes: 'content',
 				size: 'half',
 			},
@@ -36,6 +40,10 @@ var content = {
 				subheadline: 'Helium ~ Hydrogen',
 				text: '',
 				image: 'assets/images/',
+				link: {
+					text: 'Learn More!',
+					href: 'http://www.inficon.com/',
+				},
 				classes: 'content',
 				size: 'half',
 			},
