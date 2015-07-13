@@ -77,23 +77,8 @@ header a img {
 	width: auto;
 	height: 30px;
 }
-nav {}
 nav ul li a {
 	text-transform: uppercase;
-}
-ul {
-	width: 100%;
-	padding: 0;
-	margin: 0;
-}
-ul li {
-	line-height: 30px;
-	float: left;
-	display: inline-block;
-	list-style-type: none;
-}
-ul li a {
-	display: block;
 }
 nav ul li .subnav,
 nav ul li .dropdown {
