@@ -28,7 +28,7 @@ var content = {
 					text: 'Learn More!',
 					href: 'http://www.cincinnati-test.com/',
 				},
-				classes: 'content',
+				classes: 'content center',
 				size: 'half',
 			},
 			{
@@ -44,7 +44,7 @@ var content = {
 					text: 'Learn More!',
 					href: 'http://www.inficon.com/',
 				},
-				classes: 'content',
+				classes: 'content center',
 				size: 'half',
 			},
 		],
