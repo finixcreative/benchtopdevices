@@ -1,10 +1,10 @@
 <div class="full subsection">
 	<div class="{{subsection.classes}} {{subsection.size}}" ng-repeat="subsection in content.content.home.subsections">
-		<div class="full center">
+		<div class="center content full">
 			<img style="width: 100%; max-width: 300px;" src="{{subsection.logo.src}}" alt="{{subseciton.logo.alt}}">
+			<h3>{{subsection.headline}}</h3>
+			<h4>{{subsection.subheadline}}</h4>
 		</div>
-		<h3 class="center">{{subsection.headline}}</h3>
-		<h4 class="center">{{subsection.subheadline}}</h4>
 		<p class="content left half">{{subsection.text}}</p>
 		<img class="content half" src="{{subsection.image.src}}" alt="{{subsection.image.alt}}">
 		<div class="content full center">
