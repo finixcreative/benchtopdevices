@@ -23,7 +23,10 @@ var content = {
 				headline: 'Leak Detection',
 				subheadline: 'Pressure Decay ~ Mass Flow',
 				text: 'Lorem ipsum dolor sit amet.',
-				image: 'assets/images/logo-cts.png',
+				image: {
+					src: 'assets/images/img-cts.jpg',
+					alt: 'CTS products',
+				},
 				link: {
 					text: 'Learn More!',
 					href: 'http://www.cincinnati-test.com/',
@@ -39,7 +42,10 @@ var content = {
 				headline: 'Leak Location',
 				subheadline: 'Helium ~ Hydrogen',
 				text: 'Lorem ipsum dolor sit amet.',
-				image: 'assets/images/logo-inficon.png',
+				image: {
+					src: 'assets/images/img-inficon.jpg',
+					alt: 'Inficon products',
+				},
 				link: {
 					text: 'Learn More!',
 					href: 'http://www.inficon.com/',
