@@ -6,7 +6,7 @@ var content = {
 				alt: "BenchTop Devices logo",
 			},
 			text: {
-				headline: "Leak Testing &#149; Custom Test Equipment &#149; Contract Machining",
+				headline: "Leak Testing • Custom Test Equipment • Contract Machining",
 				subheadline: "Serving New England with:",
 			},
 		},
