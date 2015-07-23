@@ -2,7 +2,7 @@ var content = {
 	home: {
 		hero: {
 			image: {
-				src: "assets/images/logo-benchtop_devices.png",
+				src: "assets/images/logo-leak_curve.jpg",
 				alt: "BenchTop Devices logo",
 			},
 			text: {
