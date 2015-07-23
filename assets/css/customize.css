@@ -258,7 +258,10 @@ a.sublink:hover {}
 .call-now a {
 	color: #fff;
 }
-.call-now a:hover {
+.call-now a:hover,
+.call-now a:visited,
+.call-now a:active,
+.call-now a:focus {
 	background: #8d388d;
 	color: #fff;
 }
