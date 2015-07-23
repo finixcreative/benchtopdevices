@@ -266,7 +266,8 @@ a.sublink:hover {}
 	color: #fff;
 }
 .call-now a:hover {
-	background: rgba(125,40,125,0.7);	
+	background: #8d388d;
+	color: #fff;
 }
 .center {
 	text-align: center;
