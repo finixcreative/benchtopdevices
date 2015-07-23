@@ -58,12 +58,7 @@ p {
 }
 header {
 	background: #fff;
-	width: 100%;
-	border-bottom: none;
-	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
-	float: left;
 	position: fixed;
-	z-index: 999;
 }
 header a {
 	color: #ccc;
@@ -232,10 +227,7 @@ footer p a:hover {
 	max-width: 960px;
 	margin: 0 auto;
 }
-#content {
-	width: 100%;
-	padding: 71px 0 0 0;
-}
+#content {}
 .content {
 	padding: 20px;
 }
