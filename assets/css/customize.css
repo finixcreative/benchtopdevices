@@ -261,9 +261,11 @@ a.sublink:hover {}
 }
 .call-now {
 	background: #7d287d;
+}
+.call-now a {
 	color: #fff;
 }
-.call-now:hover {
+.call-now a:hover {
 	background: rgba(125,40,125,0.7);	
 }
 .center {
