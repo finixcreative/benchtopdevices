@@ -259,6 +259,13 @@ a.sublink:hover {}
 	top: 50%;
 	transform: translateY(50%);
 }
+.call-now {
+	background: #7d287d;
+	color: #fff;
+}
+.call-now:hover {
+	background: rgba(125,40,125,0.7);	
+}
 .center {
 	text-align: center;
 }
