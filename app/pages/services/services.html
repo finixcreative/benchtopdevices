@@ -5,9 +5,9 @@
 		</div>
 	</div>
 </div>
-<div class="subsection full" ng-controller="ProductsController as products">
+<div class="subsection full" ng-controller="ContentController as products">
 	<div class="wrapper">
-		<div class="tile content {{service.size}}" ng-repeat="service in products.services | orderBy: ['-cost', 'title']">
+		<div class="tile content {{service.size}}" ng-repeat="service in content.services | orderBy: ['-cost', 'title']">
 			<img class="full" ng-src="{{service.image}}"/>
 			<div class="center full">
 				<h3>{{service.title}}</h3>
@@ -15,6 +15,9 @@
 			</div>
 			<div class="full">
 				<p>{{service.description}}</p>
+			</div>
+			<div class="content full center">
+				<a class="cta button center" href="{{service.link.href}}" target="_blank">{{service.link.text}}</a>
 			</div>
 		</div>
 	</div>

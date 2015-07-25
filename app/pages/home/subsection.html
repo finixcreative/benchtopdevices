@@ -1,14 +1,14 @@
 <div class="full subsection">
-	<div class="{{subsection.classes}} {{subsection.size}}" ng-repeat="subsection in content.content.home.subsections">
+	<div class="{{service.classes}} {{service.size}}" ng-repeat="service in content.content.home.services">
 		<div class="center content full">
-			<img style="width: 100%; max-width: 300px;" src="{{subsection.logo.src}}" alt="{{subseciton.logo.alt}}">
-			<h3>{{subsection.headline}}</h3>
-			<h4>{{subsection.subheadline}}</h4>
+			<img style="width: 100%; max-width: 300px;" src="{{service.logo.src}}" alt="{{service.logo.alt}}">
+			<h3>{{service.headline}}</h3>
+			<h4>{{service.subheadline}}</h4>
 		</div>
-		<p class="content left half">{{subsection.text}}</p>
-		<img class="content half" src="{{subsection.image.src}}" alt="{{subsection.image.alt}}">
+		<p class="content left half">{{service.text}}</p>
+		<img class="content half" src="{{service.image.src}}" alt="{{service.image.alt}}">
 		<div class="content full center">
-			<a class="cta button center" href="{{subsection.link.href}}" target="_blank">{{subsection.link.text}}</a>
+			<a class="cta button center" href="{{service.link.href}}" target="_blank">{{service.link.text}}</a>
 		</div>
 	</div>
 </div>
