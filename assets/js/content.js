@@ -18,10 +18,10 @@ var content = {
 				},
 				headline: 'Leak Detection',
 				subheadline: 'Pressure Decay ~ Mass Flow',
-				text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.',
+				text: 'Cincinnati Test Systems (CTS) is a world leader in the design and manufacture of standard and custom leak test systems and machines. Leak testing is critical to ensuring proper product quality, safety, and performance. There are several methods of leak testing, each with different characteristics that make it favorable for specific applications.',
 				cost: '$Price',
 				image: {
-					src: 'assets/images/istock/zoom-40952736-3.jpg',
+					src: 'assets/images/cts/cts-service.jpg',
 					alt: 'CTS products',
 				},
 				link: {
@@ -38,10 +38,10 @@ var content = {
 				},
 				headline: 'Leak Location',
 				subheadline: 'Helium ~ Hydrogen',
-				text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.',
+				text: 'Inficon is a leading provider of innovative instrumentation, critical sensor technologies, and advanced process control software that enhance productivity and quality in sophisticated industrial vacuum processes. These analysis, measurement and control products are essential for gas leak detection in air conditioning/refrigeration and automotive manufacturing. They are vital to equipment manufacturers and end-users in the complex fabrication of semiconductors and thin film coatings for optics, flat panel displays, solar cells and industrial vacuum coating applications. Other users of our vacuum-based processes include the life sciences, research, aerospace, packaging, heat treatment, laser cutting and many other industrial processes. We also leverage our expertise in vacuum technology to provide unique, toxic chemical analysis products for emergency response, security, and environmental health and safety.',
 				cost: '$Price',
 				image: {
-					src: 'assets/images/istock/zoom-39527184-3.jpg',
+					src: 'assets/images/inficon/inficon-service.png',
 					alt: 'Inficon products',
 				},
 				link: {
