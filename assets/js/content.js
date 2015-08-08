@@ -38,7 +38,7 @@ var content = {
 				},
 				headline: 'Leak Location',
 				subheadline: 'Helium ~ Hydrogen',
-				text: 'Inficon is a leading provider of innovative instrumentation, critical sensor technologies, and advanced process control software that enhance productivity and quality in sophisticated industrial vacuum processes. These analysis, measurement and control products are essential for gas leak detection in air conditioning/refrigeration and automotive manufacturing.',
+				text: 'Inficon is a leading provider of innovative instrumentation, critical sensor technologies, and advanced process control software that enhance productivity and quality in sophisticated industrial vacuum processes. These products are essential for gas leak detection in air conditioning/refrigeration and automotive manufacturing.',
 				cost: '$Price',
 				image: {
 					src: 'assets/images/inficon/inficon-service.png',
