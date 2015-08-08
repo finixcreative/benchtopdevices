@@ -235,6 +235,7 @@ footer p a:hover {
 	background: url("../images/background/background-abstract_blue.jpg") #ccc center;
 	background-size: cover;
 	background-attachment: fixed;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
 .hero img {
 	max-width: 100%;
