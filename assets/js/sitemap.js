@@ -54,7 +54,7 @@ var sitemap = {
 				},
 			],
 		},
-		{
+/*		{
 			title: 'services',
 			logo: '',
 			background: '',
@@ -118,5 +118,6 @@ var sitemap = {
 				},
 			],
 		},
+		*/
 	],
 };
