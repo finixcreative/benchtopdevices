@@ -232,7 +232,7 @@ footer p a:hover {
 	padding: 20px;
 }
 .hero {
-	background: url("../images/background-abstract_blue.jpg") #ccc center;
+	background: url("../images/background/background-abstract_blue.jpg") #ccc center;
 	background-size: cover;
 	background-attachment: fixed;
 }
