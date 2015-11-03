@@ -29,7 +29,7 @@ var content = {
 					href: 'http://www.cincinnati-test.com/',
 				},
 				classes: '',
-				size: 'half',
+				size: 'full',
 			},
 			{
 				logo: {
@@ -49,7 +49,27 @@ var content = {
 					href: 'http://www.inficon.com/',
 				},
 				classes: '',
-				size: 'half',
+				size: 'full',
+			},
+			{
+				logo: {
+					src: 'assets/images/logo-extol.png',
+					alt: 'Extol logo',
+				},
+				headline: 'Custom Assembly Machinery',
+				subheadline: 'Exceptional plastics joining solutions',
+				text: 'Extol designs and manufactures custom assembly equipment and automated machinery.',
+				cost: '$Price',
+				image: {
+					src: 'assets/images/extol/extolsketchanimation.gif',
+					alt: 'Extol products',
+				},
+				link: {
+					text: 'Learn More!',
+					href: 'http://www.extolinc.com/',
+				},
+				classes: '',
+				size: 'full',
 			},
 		],
 	},
