@@ -63,7 +63,7 @@ var content = {
 				text: 'Extol designs and manufactures custom assembly equipment and automated machinery.',
 				cost: '$Price',
 				videos: [{
-					src; 'https://www.youtube.com/embed/RhQgvBjIQJY',
+					src: 'https://www.youtube.com/embed/RhQgvBjIQJY',
 					poster: 'assets/images/background/plastic-forming.jpg',
 				}],
 				images: [{
