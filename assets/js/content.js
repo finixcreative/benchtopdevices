@@ -66,10 +66,10 @@ var content = {
 					src: 'https://www.youtube.com/embed/RhQgvBjIQJY',
 					poster: 'assets/images/background/plastic-forming.jpg',
 				}],
-				images: [{
+				images: [/*{
 					src: 'assets/images/extol/extolsketchanimation.gif',
 					alt: 'Extol products',
-				}],
+				}*/],
 				link: {
 					text: 'Learn More!',
 					href: 'http://www.extolinc.com/',
