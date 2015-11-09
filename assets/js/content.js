@@ -13,7 +13,7 @@ var content = {
 		services: [
 			{
 				logo: {
-					src: 'assets/images/logo-cts.png',
+					src: 'assets/images/partner_logos_alt_cts.png',
 					alt: 'CTS logo',
 				},
 				headline: 'Leak Detection',
@@ -34,7 +34,7 @@ var content = {
 			},
 			{
 				logo: {
-					src: 'assets/images/logo-inficon.png',
+					src: 'assets/images/partner_logos_alt_inficon.png',
 					alt: 'Inficon logo',
 				},
 				headline: 'Leak Location',
@@ -55,12 +55,12 @@ var content = {
 			},
 			{
 				logo: {
-					src: 'assets/images/logo-extol.png',
+					src: 'assets/images/partner_logos_alt_extol.png',
 					alt: 'Extol logo',
 				},
-				headline: 'Custom Assembly Machinery',
+				headline: 'Plastics Joining Processes',
 				subheadline: 'Exceptional plastics joining solutions',
-				text: 'Extol designs and manufactures custom assembly equipment and automated machinery.',
+				text: 'Extol brings refreshing ideas to reality through creative engineering that truly distinguishes their plastics joining equipment from the competition.',
 				cost: '$Price',
 				videos: [{
 					src: 'https://www.youtube.com/embed/RhQgvBjIQJY',
@@ -72,7 +72,7 @@ var content = {
 				}*/],
 				link: {
 					text: 'Learn More!',
-					href: 'http://www.extolinc.com/',
+					href: 'http://www.extolinc.com/plastics',
 				},
 				classes: '',
 				size: 'full',
