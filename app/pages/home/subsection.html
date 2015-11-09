@@ -4,6 +4,7 @@
 			<div class="center half">
 				<img class="content" style="width: 100%; max-width: 300px;" src="{{service.logo.src}}" alt="{{service.logo.alt}}">
 				<img class="full content" src="{{image.src}}" alt="{{image.alt}}" ng-repeat="image in service.images">
+				<iframe class="videoplayer full content" src="{{video.src}}" ng-repeat="video in service.videos"></iframe>
 				<video class="videoplayer full content" frameborder="0" poster="{{video.poster}}" controls ng-repeat="video in service.videos">
 					<source src="{{video.src}}" type="video/mp4">
 					Your browser does not support HTML5 video. Please download a modern browser, like <a href="https://www.google.com/chrome/browser/desktop/">Google Chrome</a>.
