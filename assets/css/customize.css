@@ -249,6 +249,9 @@ footer p a:hover {
 	color: #7d287d;
 }
 .subsection.alt {}
+iframe.videoplayer {
+	min-height: 350px;
+}
 a.sublink {}
 a.sublink:hover {}
 #bbb {
