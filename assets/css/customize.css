@@ -159,8 +159,8 @@ input[type=checkbox]:checked + label.product > .check-box {
 .button:active,
 .button:focus,
 .button:checked {
-	background: #fff;
-	color: #7d287d;
+	background: #7d287d;
+	color: #fff;
 	border: 2px solid #7d287d;
 }
 label {
