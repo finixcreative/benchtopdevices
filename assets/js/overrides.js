@@ -4,5 +4,5 @@ var overrides = function(){
 };
 window.onload = function(){
 	overrides();
-	console.log("Overrides applied");
+	console.log("Overrides applied: " + overrides);
 };
