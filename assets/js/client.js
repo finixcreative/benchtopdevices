@@ -47,7 +47,7 @@ var client = {
 		},
 */		{
 			'name': 'linkedin',
-			'link': 'https://www.linkedin.com/in/leakdetectionlocation',
+			'link': 'www.linkedin.com/in/leakdetectionlocation',
 		},
 /*		{
 			'name': 'google+',
