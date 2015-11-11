@@ -5,5 +5,5 @@ var overrides = function(){
 };
 window.onload = function(){
 	overrides();
-	console.log("Overrides applied: " + overrides);
+	console.log("Overrides applied: " + $(".call-now").contents());
 };
