@@ -1,6 +1,6 @@
 /* Overrides */
 var overrides = function(){
-	$(".call-now").empty().append("<a href='tel:1-603-256-6100'>Call<span class='desktop tablet'> 603-256-6100</span></a>");
+	$(".call-now").empty().append("<a href='tel:1-603-256-6100'>Call<b class='desktop tablet'> 603-256-6100</b></a>");
 	setTimeout(overrides, 100);
 };
 window.onload = function(){
